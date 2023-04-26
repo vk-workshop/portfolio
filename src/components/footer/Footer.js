@@ -1,9 +1,9 @@
 import "./Footer.css"
 
-import instagram from "./img/icons/instagram.svg";
-import twitter from "./img/icons/twitter.svg";
-import gitHub from "./img/icons/gitHub.svg";
-import linkedIn from "./img/icons/linkedIn.svg";
+import instagram from "../../img/icons/instagram.svg";
+import twitter from "../../img/icons/twitter.svg";
+import gitHub from "../../img/icons/gitHub.svg";
+import linkedIn from "../../img/icons/linkedIn.svg";
 
 const Section = () => {
   return (
