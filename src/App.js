@@ -1,4 +1,6 @@
-import "./styles/main.css"
+import "./styles/main.css";
+import sun from "./img/icons/sun.svg"
+import moon from "./img/icons/moon.svg"
 
 
 function App() {
@@ -7,11 +9,11 @@ function App() {
           <nav className="nav">
         <div className="container">
             <div className="nav-row">
-                <a href="./index.html" className="logo"><strong>Freelancer</strong> portfolio</a>
+                <a href="./index.html" className="logo"><strong>My</strong> portfolio</a>
 
                 <button className="dark-mode-btn">
-                    <img src="./img/icons/sun.svg" alt="Light mode" className="dark-mode-btn__icon" />
-                    <img src="./img/icons/moon.svg" alt="Dark mode" className="dark-mode-btn__icon" />
+                    <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
+                    <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
                 </button>
 
                 <ul className="nav-list">
@@ -26,7 +28,7 @@ function App() {
     <header className="header">
         <div className="header__wrapper">
             <h1 className="header__title">
-                <strong>Hi, my name is <em>Yuri</em></strong><br/>
+                <strong>Hi, my name is <em>Volodymyr</em></strong><br/>
                 a frontend developer
             </h1>
             <div className="header__text">
@@ -43,10 +45,6 @@ function App() {
                     <li className="content-list__item">
                         <h2 className="title-2">Frontend</h2>
                         <p>JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents</p>
-                    </li>
-                    <li className="content-list__item">
-                        <h2 className="title-2">Backend</h2>
-                        <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
                     </li>
                 </ul>
 
