@@ -1,7 +1,7 @@
 import project01 from "../../img/projects/01.jpg";
 import project01Big from "../../img/projects/01-big.jpg";
 
-const projects = [
+export const projectsList = [
     {
         title: 'Dino Game',
         skills: 'JS, CSS, HTML',
@@ -28,3 +28,4 @@ const projects = [
         gitHubLink: 'https://github.com/anotherShine'
     },
 ]
+
