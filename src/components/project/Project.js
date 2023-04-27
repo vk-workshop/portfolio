@@ -1,4 +1,3 @@
-import project1 from "../../img/projects/01.jpg";
 import "./Project.css"
 
 const Project = ({gitHubLink, img, title}) => {
