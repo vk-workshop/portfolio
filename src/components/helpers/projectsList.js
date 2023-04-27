@@ -1,6 +1,8 @@
 import project01 from "../../img/projects/01.jpg";
 import project02 from "../../img/projects/dino-game.jpg";
-import project01Big from "../../img/projects/01-big.jpg";
+import project03 from "../../img/projects/todo-list.png";
+import project04 from "../../img/projects/social-network.png";
+import project05 from "../../img/projects/memory-game.png";
 import { v1 } from "uuid"
 
 export const projectsList = [
@@ -8,14 +10,14 @@ export const projectsList = [
         id: v1(),
         title: 'Social Network',
         skills: 'JS, CSS, HTML, Redux, React',
-        img: project01,
+        img: project04,
         gitHubLink: 'https://github.com/anotherShine'
     },
     {
         id: v1(),
         title: 'Memory Game',
         skills: 'JS, CSS, HTML',
-        img: project01,
+        img: project05,
         gitHubLink: 'https://github.com/anotherShine'
     },
     {
@@ -29,7 +31,7 @@ export const projectsList = [
         id: v1(),
         title: 'Todo List',
         skills: 'JS, CSS, HTML, TypeScript, React',
-        img: project01,
+        img: project03,
         gitHubLink: 'https://github.com/anotherShine'
     },
 ]
