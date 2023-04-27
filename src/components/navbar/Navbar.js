@@ -4,6 +4,11 @@ import moon from "../../img/icons/moon.svg";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+
+  const activeLink = 'nav-list__link nav-list__link--active';
+  const normalLink = 'nav-list__link';
+
+
   return (
     <nav className="nav">
       <div className="container">
@@ -24,7 +29,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink to="/projects" className="nav-list__link">
+              <NavLink to="/projects" className={({isActive}) => isActive? activeLink: normalLink}>
                 Projects
               </NavLink>
             </li>
