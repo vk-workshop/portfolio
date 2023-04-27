@@ -15,6 +15,8 @@ const Projects = () => {
             <ul className="projects">
                
                <Project />
+               <Project />
+               <Project />
             </ul>
         </div>
     </main>
