@@ -18,7 +18,8 @@ const Projects = () => {
                       title={pr.title} 
                       imgBig={pr.imgBig}
                       gitHubLink={pr.gitHubLink}
-                      skills={pr.skills} />
+                      skills={pr.skills}
+                      key={pr.id} />
                   )
               })}
             </ul>
