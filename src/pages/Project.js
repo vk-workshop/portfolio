@@ -17,7 +17,7 @@ const Project = () => {
                 <div className="project-details__desc">
                     <p>Skills: JS, CSS, HTML</p>
                 </div>
-                <BtnGitHub />
+                <BtnGitHub link="https://github.com/anotherShine" />
             </div>
         </div>
     </main>
