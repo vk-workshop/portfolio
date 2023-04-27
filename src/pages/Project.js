@@ -1,19 +1,23 @@
+import img from "../img/projects/dino-game-Big.jpg";
+import gitHubIcon from "../img/icons/gitHub-black.svg";
+
+
 const Project = () => {
     return ( 
         <main className="section">
         <div className="container">
             <div className="project-details">
 
-                <h1 className="title-1">Video service</h1>
+                <h1 className="title-1">Dino Game</h1>
 
-                <img src="./img/projects/02-big.jpg" alt="" className="project-details__cover" />
+                <img src={img} alt="" className="project-details__cover" />
 
                 <div className="project-details__desc">
-                    <p>Skills: React, Node.js, MongoDB</p>
+                    <p>Skills: JS, CSS, HTML</p>
                 </div>
 
                 <a href="#!" className="btn-outline">
-                    <img src="./img/icons/gitHub-black.svg" alt="" />
+                    <img src={gitHubIcon} alt="gitHub" />
                     GitHub repo
                 </a>
 
