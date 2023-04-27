@@ -24,7 +24,7 @@ const Navbar = () => {
 
           <ul className="nav-list">
             <li className="nav-list__item">
-              <NavLink to="/" className="nav-list__link ">
+              <NavLink to="/" className={({isActive}) => isActive? activeLink: normalLink}>
                 Home
               </NavLink>
             </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-list__item">
-              <NavLink to="/contacts" className="nav-list__link">
+              <NavLink to="/contacts" className={({isActive}) => isActive? activeLink: normalLink}>
                 Contacts
               </NavLink>
             </li>
