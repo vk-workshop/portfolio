@@ -1,4 +1,4 @@
-import project01 from "../../img/projects/01.jpg";
+
 import project02 from "../../img/projects/dino-game.jpg";
 import project03 from "../../img/projects/todo-list.png";
 import project04 from "../../img/projects/social-network.png";
