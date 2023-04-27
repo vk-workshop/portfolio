@@ -1,3 +1,4 @@
+import Project from './../components/project/Project';
 
 import project2 from "../img/projects/02.jpg"
 import project3 from "../img/projects/03.jpg"
@@ -13,32 +14,7 @@ const Projects = () => {
             <h2 className="title-1">Projects</h2>
             <ul className="projects">
                
-                <li className="project">
-                    <a href="./project-page.html">
-                        <img src={project2} alt="Project img" className="project__img" />
-                        <h3 className="project__title">Video service</h3>
-                    </a>
-                </li>
-                <li className="project">
-                    <a href="./project-page.html">
-                        <img src={project3} alt="Project img" className="project__img" />
-                        <h3 className="project__title">Video portal</h3>
-                    </a>
-                </li>
-
-                <li className="project">
-                    <img src={project4} alt="Project img" className="project__img" />
-                    <h3 className="project__title">Dating app</h3>
-                </li>
-                <li className="project">
-                    <img src={project5} alt="Project img" className="project__img" />
-                    <h3 className="project__title">Landing</h3>
-                </li>
-                <li class="project">
-                    <img src={project6} alt="Project img" className="project__img" />
-                    <h3 className="project__title">Gaming community</h3>
-                </li>
-
+               <Project />
             </ul>
         </div>
     </main>
