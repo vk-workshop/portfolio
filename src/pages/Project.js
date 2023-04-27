@@ -1,10 +1,15 @@
+import { useParams } from "react-router-dom";
+
 import BtnGitHub from "../components/btnGitHub/BtnGitHub";
 import img from "../img/projects/dino-game-Big.jpg";
 
 
 
 
+
 const Project = () => {
+    const {id} = useParams;
+
     return ( 
         <main className="section">
         <div className="container">
