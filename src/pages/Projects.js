@@ -1,10 +1,7 @@
 import Project from './../components/project/Project';
+import {projectsList} from '../components/helpers/projectsList'
 
-import project2 from "../img/projects/02.jpg"
-import project3 from "../img/projects/03.jpg"
-import project4 from "../img/projects/04.jpg"
-import project5 from "../img/projects/05.jpg"
-import project6 from "../img/projects/06.jpg"
+
 
 
 const Projects = () => {
@@ -14,9 +11,16 @@ const Projects = () => {
             <h2 className="title-1">Projects</h2>
             <ul className="projects">
                
-               <Project />
-               <Project />
-               <Project />
+              {projectsList.map(pr => {
+                  return (
+                      <Project 
+                      img={pr.img} 
+                      title={pr.title} 
+                      imgBig={pr.imgBig}
+                      gitHubLink={pr.gitHubLink}
+                      skills={pr.skills} />
+                  )
+              })}
             </ul>
         </div>
     </main>

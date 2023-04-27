@@ -1,12 +1,12 @@
 import project1 from "../../img/projects/01.jpg";
 import "./Project.css"
 
-const Project = () => {
+const Project = (props) => {
     return ( 
         <li className="project">
         <a href="./project-page.html">
-            <img src={project1} alt="Project img" className="project__img" />
-            <h3 className="project__title">Gaming streaming portal</h3>
+            <img src={props.img} alt="Project img" className="project__img" />
+            <h3 className="project__title">{props.title}</h3>
         </a>
     </li>
      );
