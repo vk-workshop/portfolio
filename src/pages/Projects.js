@@ -11,7 +11,7 @@ const Projects = () => {
             <h2 className="title-1">Projects</h2>
             <ul className="projects">
                
-              {projectsList.map(pr => {
+              {projectsList.map((pr, index) => {
                   return (
                       <Project 
                       img={pr.img} 
@@ -19,7 +19,8 @@ const Projects = () => {
                       imgBig={pr.imgBig}
                       gitHubLink={pr.gitHubLink}
                       skills={pr.skills}
-                      key={pr.id} />
+                      key={pr.id}
+                      index={index} />
                   )
               })}
             </ul>
