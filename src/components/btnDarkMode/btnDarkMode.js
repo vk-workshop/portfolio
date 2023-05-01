@@ -1,11 +1,14 @@
 
-
+import { useState } from "react";
 import sun from "./sun.svg";
 import moon from "./moon.svg";
 import "./btnDarkMode.css"
 
 
 const BtnDarkMode = () => {
+
+    const [darkMode, setDarkMode] = useState('')
+
     const toggleDarkMode = () => {
         window.alert("ddd")
     }
