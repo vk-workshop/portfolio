@@ -1,5 +1,5 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import sun from "./sun.svg";
 import moon from "./moon.svg";
 import "./btnDarkMode.css"
@@ -8,6 +8,14 @@ import "./btnDarkMode.css"
 const BtnDarkMode = () => {
 
     const [darkMode, setDarkMode] = useState('light')
+
+    useEffect(() => {
+     if (darkMode === 'light') {
+        document.body.classList.add('dark')
+     } else {
+        document.body.classList.remove('dark')
+     }
+    }, [darkMode])
 
     const toggleDarkMode = () => {setDarkMode((currentValue) => {
         return currentValue === 'light'? 'dark' : 'light'
