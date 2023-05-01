@@ -7,11 +7,11 @@ import "./btnDarkMode.css"
 
 const BtnDarkMode = () => {
 
-    const [darkMode, setDarkMode] = useState('')
+    const [darkMode, setDarkMode] = useState('light')
 
-    const toggleDarkMode = () => {
-        window.alert("ddd")
-    }
+    const toggleDarkMode = () => {setDarkMode((currentValue) => {
+        return currentValue === 'light'? 'dark' : 'light'
+    })}
     return ( 
         <button onClick={toggleDarkMode} className="dark-mode-btn">
         <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
