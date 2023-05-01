@@ -1,6 +1,6 @@
 
-import sun from "../../img/icons/sun.svg";
-import moon from "../../img/icons/moon.svg";
+import sun from "./sun.svg";
+import moon from "./moon.svg";
 import "./btnDarkMode.css"
 
 
