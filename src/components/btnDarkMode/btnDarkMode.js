@@ -7,7 +7,9 @@ import "./btnDarkMode.css"
 
 const BtnDarkMode = () => {
 
-    const [darkMode, setDarkMode] = useState('light');
+    // const [darkMode, setDarkMode] = useState('light');
+    const [darkMode, setDarkMode] = useLocalStorage('darkMode', 'light');
+
     const btnRef = useRef(null)
 
     useEffect(() => {

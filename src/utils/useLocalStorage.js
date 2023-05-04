@@ -16,6 +16,6 @@ export const useLocalStorage = (key, defaultValue) => {
         //storing input name
         localStorage.setItem(key, JSON.stringify(value))
     }, [key, value])
-    
+
     return [value, setValue]
 };
