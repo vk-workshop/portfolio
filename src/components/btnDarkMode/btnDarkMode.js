@@ -8,7 +8,6 @@ import "./btnDarkMode.css"
 
 const BtnDarkMode = () => {
 
-    // const [darkMode, setDarkMode] = useState('light');
     const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode());
 
     const btnRef = useRef(null)
@@ -21,7 +20,17 @@ const BtnDarkMode = () => {
         document.body.classList.remove('dark');
         btnRef.current.classList.remove('dark-mode-btn--active')
      }
-    }, [darkMode])
+    }, [darkMode]);
+
+    // if system settings changed, change the theme
+    useEffect(() => {
+        window
+        .matchMedia('(prefers-color-scheme: dark)')
+        .addEventListener('change', (event) => {
+            const newColorScheme = event.matches ? 'dark': 'light';
+            setDarkMode(newColorScheme)
+        })
+    }, [])
 
     const toggleDarkMode = () => {setDarkMode((currentValue) => {
         return currentValue === 'light'? 'dark' : 'light'
