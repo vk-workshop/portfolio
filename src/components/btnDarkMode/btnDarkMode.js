@@ -1,4 +1,4 @@
-
+import { useLocalStorage } from "../../utils/useLocalStorage";
 import { useState, useEffect, useRef } from "react";
 import sun from "./sun.svg";
 import moon from "./moon.svg";
