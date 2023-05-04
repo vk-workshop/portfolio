@@ -13,7 +13,7 @@ export const projectsList = [
     {
         id: v1(),
         title: 'Social Network',
-        skills: 'JS, CSS, HTML, Redux, React',
+        skills: 'JS, CSS, HTML, Redux, React, Axios',
         img: project04,
         imgBig: project041,
         gitHubLink: 'https://github.com/anotherShine'
