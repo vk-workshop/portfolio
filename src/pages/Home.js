@@ -11,8 +11,8 @@ const Home = () => {
               <li className="content-list__item">
                 <h2 className="title-2">Frontend</h2>
                 <p>
-                  JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM,
-                  BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+                  JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, SCSS
+                  BootStrap, MaterialUI, Yarn, Gulp, Figma, Koala, VScode
                 </p>
               </li>
             </ul>
