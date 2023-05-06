@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
-        <Navbar />
+        {/* <Navbar /> */}
         <Home />
         <Routes>
           <Route path="/" element={<Home />} />
