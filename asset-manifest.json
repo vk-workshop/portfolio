@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-react/static/css/main.78e92107.css",
+    "main.js": "/my-portfolio-react/static/js/main.a0722b91.js",
+    "static/media/social-network-Big.png": "/my-portfolio-react/static/media/social-network-Big.6d14a0fb04ea1ed718d5.png",
+    "static/media/memory-game-Big.png": "/my-portfolio-react/static/media/memory-game-Big.91f76313604ee2f3e930.png",
+    "static/media/todo-list-Big.png": "/my-portfolio-react/static/media/todo-list-Big.6c84c9953dc29cebbc33.png",
+    "static/media/social-network.png": "/my-portfolio-react/static/media/social-network.736e9808fb7650385189.png",
+    "static/media/memory-game.png": "/my-portfolio-react/static/media/memory-game.c3a5ae93b95cafc9e9f2.png",
+    "static/media/header-bg.png": "/my-portfolio-react/static/media/header-bg.5bf82a058f892ab7f237.png",
+    "static/media/todo-list.png": "/my-portfolio-react/static/media/todo-list.06134932d7df702e1cf4.png",
+    "static/media/dino-game-Big.jpg": "/my-portfolio-react/static/media/dino-game-Big.a1f3fc639466d4051d75.jpg",
+    "static/media/sun.svg": "/my-portfolio-react/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/my-portfolio-react/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/gitHub.svg": "/my-portfolio-react/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/gitHub-black.svg": "/my-portfolio-react/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
+    "static/media/instagram.svg": "/my-portfolio-react/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
+    "static/media/twitter.svg": "/my-portfolio-react/static/media/twitter.d4b0a40866d7b735834b96db6728afc1.svg",
+    "static/media/linkedIn.svg": "/my-portfolio-react/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "index.html": "/my-portfolio-react/index.html",
+    "main.78e92107.css.map": "/my-portfolio-react/static/css/main.78e92107.css.map",
+    "main.a0722b91.js.map": "/my-portfolio-react/static/js/main.a0722b91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78e92107.css",
+    "static/js/main.a0722b91.js"
+  ]
+}
