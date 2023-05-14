@@ -1,5 +1,5 @@
 import "./styles/main.css";
-import {BrowserRouter as Router,Routes,Route,} from "react-router-dom";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -16,9 +16,8 @@ function App() {
       <Router>
         <ScrollToTop />
         <Navbar />
-        <Home />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/project/:id" element={<Project />} />
