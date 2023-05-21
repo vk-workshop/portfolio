@@ -24,7 +24,7 @@ export const projectsList = [
         skills: 'JS, CSS, HTML',
         img: project05,
         imgBig: project051,
-        gitHubLink: 'https://github.com/anotherShine'
+        gitHubLink: 'https://volodymyrkolisnichenko.github.io/memory-game/'
     },
     {
         id: v1(),
