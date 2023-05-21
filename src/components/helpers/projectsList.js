@@ -40,7 +40,7 @@ export const projectsList = [
         skills: 'JS, CSS, HTML, TypeScript, React, MUI',
         img: project03,
         imgBig: project031,
-        gitHubLink: 'https://github.com/anotherShine'
+        gitHubLink: 'https://volodymyrkolisnichenko.github.io/todo-list-2/'
     },
 ]
 
