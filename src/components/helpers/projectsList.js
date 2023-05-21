@@ -37,7 +37,7 @@ export const projectsList = [
     {
         id: v1(),
         title: 'Todo List',
-        skills: 'JS, CSS, HTML, TypeScript, React',
+        skills: 'JS, CSS, HTML, TypeScript, React, MUI',
         img: project03,
         imgBig: project031,
         gitHubLink: 'https://github.com/anotherShine'
