@@ -32,7 +32,7 @@ export const projectsList = [
         skills: 'JS, CSS, HTML',
         img: project02,
         imgBig: project021,
-        gitHubLink: 'https://github.com/anotherShine'
+        gitHubLink: 'https://volodymyrkolisnichenko.github.io/game-dino/'
     },
     {
         id: v1(),
