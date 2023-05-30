@@ -1,9 +1,9 @@
 
 import project02 from "../../img/projects/dino-game.jpg";
 import project021 from "../../img/projects/dino-game-Big.jpg";
-import project03 from "../../img/projects/todo-list.png";
+import project03 from "../../img/projects/todo-list.jpg";
 import project031 from "../../img/projects/todo-list-Big.png";
-import project04 from "../../img/projects/social-network.png";
+import project04 from "../../img/projects/social-network.jpg";
 import project041 from "../../img/projects/social-network-Big.png";
 import project05 from "../../img/projects/memory-game.png";
 import project051 from "../../img/projects/memory-game-Big.png";
