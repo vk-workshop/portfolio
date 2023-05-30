@@ -7,6 +7,8 @@ import project04 from "../../img/projects/social-network.png";
 import project041 from "../../img/projects/social-network-Big.png";
 import project05 from "../../img/projects/memory-game.png";
 import project051 from "../../img/projects/memory-game-Big.png";
+import project6 from "../../img/projects/summarize-openAI.jpg";
+import project61 from "../../img/projects/summarize-openAI-big.png";
 import { v1 } from "uuid"
 
 export const projectsList = [
@@ -41,6 +43,14 @@ export const projectsList = [
         img: project03,
         imgBig: project031,
         gitHubLink: 'https://volodymyrkolisnichenko.github.io/todo-list-2/'
+    },
+    {
+        id: v1(),
+        title: 'Summarize OpenAI',
+        skills: 'JS, CSS, HTML, Vitejs, Tailwindcss, RapidApi, React, React-Redux',
+        img: project6,
+        imgBig: project61,
+        gitHubLink: 'https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/'
     },
 ]
 
