@@ -1,30 +1,28 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.78e92107.css",
-    "main.js": "/my-portfolio-react/static/js/main.17ac9dec.js",
-    "static/media/summarize-openAI-big.png": "/my-portfolio-react/static/media/summarize-openAI-big.1ff676e0799a6c85df0d.png",
-    "static/media/social-network-Big.png": "/my-portfolio-react/static/media/social-network-Big.6d14a0fb04ea1ed718d5.png",
-    "static/media/memory-game-Big.png": "/my-portfolio-react/static/media/memory-game-Big.91f76313604ee2f3e930.png",
-    "static/media/memory-game.png": "/my-portfolio-react/static/media/memory-game.c3a5ae93b95cafc9e9f2.png",
-    "static/media/todo-list-Big.png": "/my-portfolio-react/static/media/todo-list-Big.48163b775c72b5b8953b.png",
-    "static/media/header-bg.png": "/my-portfolio-react/static/media/header-bg.5bf82a058f892ab7f237.png",
-    "static/media/summarize-openAI.jpg": "/my-portfolio-react/static/media/summarize-openAI.64744dacc9aee03cbfad.jpg",
-    "static/media/dino-game-Big.jpg": "/my-portfolio-react/static/media/dino-game-Big.a1f3fc639466d4051d75.jpg",
-    "static/media/social-network.jpg": "/my-portfolio-react/static/media/social-network.053404c1faceffea7eb5.jpg",
-    "static/media/todo-list.jpg": "/my-portfolio-react/static/media/todo-list.c3e2a593205d5180f6c1.jpg",
-    "static/media/sun.svg": "/my-portfolio-react/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
-    "static/media/moon.svg": "/my-portfolio-react/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
-    "static/media/gitHub.svg": "/my-portfolio-react/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
-    "static/media/gitHub-black.svg": "/my-portfolio-react/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
-    "static/media/instagram.svg": "/my-portfolio-react/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
-    "static/media/linkedIn.svg": "/my-portfolio-react/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
-    "index.html": "/my-portfolio-react/index.html",
-    "static/media/facebook.svg": "/my-portfolio-react/static/media/facebook.924c03996da2e09d5b1754ea89778cd3.svg",
-    "main.78e92107.css.map": "/my-portfolio-react/static/css/main.78e92107.css.map",
-    "main.17ac9dec.js.map": "/my-portfolio-react/static/js/main.17ac9dec.js.map"
+    "main.css": "/portfolio/static/css/main.4f3e412f.css",
+    "main.js": "/portfolio/static/js/main.6df3eab6.js",
+    "static/media/summarize-openAI-big.png": "/portfolio/static/media/summarize-openAI-big.1ff676e0799a6c85df0d.png",
+    "static/media/social-network-Big.png": "/portfolio/static/media/social-network-Big.6d14a0fb04ea1ed718d5.png",
+    "static/media/todo-list-Big.png": "/portfolio/static/media/todo-list-Big.48163b775c72b5b8953b.png",
+    "static/media/header-bg.png": "/portfolio/static/media/header-bg.5bf82a058f892ab7f237.png",
+    "static/media/summarize-openAI.jpg": "/portfolio/static/media/summarize-openAI.64744dacc9aee03cbfad.jpg",
+    "static/media/dino-game-Big.jpg": "/portfolio/static/media/dino-game-Big.a1f3fc639466d4051d75.jpg",
+    "static/media/social-network.jpg": "/portfolio/static/media/social-network.053404c1faceffea7eb5.jpg",
+    "static/media/todo-list.jpg": "/portfolio/static/media/todo-list.c3e2a593205d5180f6c1.jpg",
+    "static/media/sun.svg": "/portfolio/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/portfolio/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/gitHub.svg": "/portfolio/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/gitHub-black.svg": "/portfolio/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
+    "static/media/instagram.svg": "/portfolio/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
+    "static/media/linkedIn.svg": "/portfolio/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/facebook.svg": "/portfolio/static/media/facebook.924c03996da2e09d5b1754ea89778cd3.svg",
+    "main.4f3e412f.css.map": "/portfolio/static/css/main.4f3e412f.css.map",
+    "main.6df3eab6.js.map": "/portfolio/static/js/main.6df3eab6.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e92107.css",
-    "static/js/main.17ac9dec.js"
+    "static/css/main.4f3e412f.css",
+    "static/js/main.6df3eab6.js"
   ]
 }
