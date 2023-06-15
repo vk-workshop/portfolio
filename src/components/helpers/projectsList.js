@@ -22,14 +22,6 @@ export const projectsList = [
     },
     {
         id: v1(),
-        title: 'Memory Game',
-        skills: 'JS, CSS, HTML',
-        img: project05,
-        imgBig: project051,
-        gitHubLink: 'https://volodymyrkolisnichenko.github.io/memory-game/'
-    },
-    {
-        id: v1(),
         title: 'Dino Game',
         skills: 'JS, CSS, HTML',
         img: project02,
