@@ -1,6 +1,7 @@
-import "./Header.css"
+import "./Header.css";
 
 const Header = () => {
+    const cvURL = process.env.PUBLIC_URL + '/Volodymyr_Kolisnichenko_CV.pdf';
     return ( 
         <header className="header">
         <div className="header__wrapper">
@@ -11,7 +12,7 @@ const Header = () => {
             <div className="header__text">
                 <p>with passion for learning and creating.</p>
             </div>
-            <a href="#!" className="btn">Download CV</a>
+            <a href={cvURL} download="" className="btn">Download CV</a>
         </div>
     </header>
      );
