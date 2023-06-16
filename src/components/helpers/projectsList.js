@@ -20,6 +20,14 @@ export const projectsList = [
     },
     {
         id: v1(),
+        title: 'Summarize OpenAI',
+        skills: 'JS, CSS, HTML, Vitejs, Tailwindcss, RapidApi, React, React-Redux',
+        img: project6,
+        imgBig: project61,
+        gitHubLink: 'https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/'
+    },
+    {
+        id: v1(),
         title: 'Dino Game',
         skills: 'JS, CSS, HTML',
         img: project02,
@@ -34,13 +42,6 @@ export const projectsList = [
         imgBig: project031,
         gitHubLink: 'https://volodymyrkolisnichenko.github.io/todo-list-2/'
     },
-    {
-        id: v1(),
-        title: 'Summarize OpenAI',
-        skills: 'JS, CSS, HTML, Vitejs, Tailwindcss, RapidApi, React, React-Redux',
-        img: project6,
-        imgBig: project61,
-        gitHubLink: 'https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/'
-    },
+ 
 ]
 

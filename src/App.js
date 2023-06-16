@@ -1,5 +1,5 @@
 import "./styles/main.css";
-import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -8,7 +8,8 @@ import Projects from "./pages/Projects";
 import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
 
-import ScrollToTop from "./utils/scrollToTop"
+import ScrollToTop from "./utils/scrollToTop";
+import Header from "./components/header/Header";
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
       <Router>
         <ScrollToTop />
         <Navbar />
+         
         <Routes>
-          <Route path="" element={<Home />} />
+          <Route path="/portfolio" element={<Header />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/project/:id" element={<Project />} />
