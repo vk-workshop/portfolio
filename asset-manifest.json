@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4f3e412f.css",
-    "main.js": "/portfolio/static/js/main.6df3eab6.js",
+    "main.js": "/portfolio/static/js/main.8956341c.js",
     "static/media/summarize-openAI-big.png": "/portfolio/static/media/summarize-openAI-big.1ff676e0799a6c85df0d.png",
     "static/media/social-network-Big.png": "/portfolio/static/media/social-network-Big.6d14a0fb04ea1ed718d5.png",
     "static/media/todo-list-Big.png": "/portfolio/static/media/todo-list-Big.48163b775c72b5b8953b.png",
@@ -19,10 +19,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.924c03996da2e09d5b1754ea89778cd3.svg",
     "main.4f3e412f.css.map": "/portfolio/static/css/main.4f3e412f.css.map",
-    "main.6df3eab6.js.map": "/portfolio/static/js/main.6df3eab6.js.map"
+    "main.8956341c.js.map": "/portfolio/static/js/main.8956341c.js.map"
   },
   "entrypoints": [
     "static/css/main.4f3e412f.css",
-    "static/js/main.6df3eab6.js"
+    "static/js/main.8956341c.js"
   ]
 }
