@@ -1,4 +1,6 @@
 
+import project01 from "../../img/projects/iphone.png";
+import project011 from "../../img/projects/iphone-small.png";
 import project02 from "../../img/projects/dino-game.jpg";
 import project021 from "../../img/projects/dino-game-Big.jpg";
 import project03 from "../../img/projects/todo-list.jpg";
@@ -10,6 +12,14 @@ import project61 from "../../img/projects/summarize-openAI-big.png";
 import { v1 } from "uuid"
 
 export const projectsList = [
+    {
+        id: v1(),
+        title: 'iPhone',
+        skills: 'JS, CSS, HTML, WebGI, Netlify, React, Vite, Sketchfab, GSAP',
+        img: project01,
+        imgBig: project011,
+        gitHubLink: ' https://volodymyrkolisnichenko.github.io/iphone/'
+    },
     {
         id: v1(),
         title: 'Social Network',
