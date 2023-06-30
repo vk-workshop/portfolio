@@ -19,6 +19,7 @@ const Projects = () => {
                       imgBig={pr.imgBig}
                       gitHubLink={pr.gitHubLink}
                       skills={pr.skills}
+                      link={pr.link}
                       key={pr.id}
                       index={index} />
                   )
