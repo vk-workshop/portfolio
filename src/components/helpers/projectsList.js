@@ -15,7 +15,7 @@ export const projectsList = [
     {
         id: v1(),
         title: 'iPhone',
-        skills: 'JS, CSS, HTML, WebGI, Netlify, React, Vite, Sketchfab, GSAP',
+        skills: 'JS, CSS, HTML, WebGI, React, Vite, Sketchfab, GSAP',
         img: project01,
         imgBig: project011,
         gitHubLink: ' https://volodymyrkolisnichenko.github.io/iphone/'
