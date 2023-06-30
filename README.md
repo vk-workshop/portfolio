@@ -21,7 +21,7 @@ To view the website locally, follow these steps:<br>
 
 <h3>Clone the repository:</h3>
 git clone https://github.com/VolodymyrKolisnichenko/portfolio.git<br>
-<h3>Navigate to the project directory:</h3>h3>
+<h3>Navigate to the project directory:</h3>
 cd portfolio<br>
 Open index.html in your web browser to access the website.<br>
 <h2>Contributing</h2>
