@@ -1,5 +1,5 @@
 <h1>Portfolio Website</h1>
-<img src="./src/img/images/projects/portfolio.png" alt="social-network"/>
+<img src="./src/img/projects/portfolio.png" alt="social-network"/>
 This is the repository for my personal portfolio website. The portfolio showcases my skills, projects, and experiences to provide an overview of my professional profile. The website is designed to be visually appealing, user-friendly, and informative.
 
 <h2>Live Website</h2>
@@ -19,12 +19,12 @@ Other libraries or frameworks: The project may utilize additional libraries or f
 <h2>Usage</h2>
 To view the website locally, follow these steps:<br>
 
-Clone the repository:<br>
+<h3>Clone the repository:</h3>
 git clone https://github.com/VolodymyrKolisnichenko/portfolio.git<br>
-Navigate to the project directory:<br>
+<h3>Navigate to the project directory:</h3>h3>
 cd portfolio<br>
 Open index.html in your web browser to access the website.<br>
-Contributing<br>
+<h2>Contributing</h2>
 Contributions are not currently accepted for this project, as it represents my personal portfolio. However, your feedback and suggestions are always welcome!
 
 <h2>Contact</h2>
