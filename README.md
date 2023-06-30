@@ -1,5 +1,5 @@
 <h1>Portfolio Website</h1>
-<img src="./src/img/projects/portfolio.png" alt="portfolio"/>
+<img src="./src/img/projects/porfolio.png" alt="portfolio"/>
 This is the repository for my personal portfolio website. The portfolio showcases my skills, projects, and experiences to provide an overview of my professional profile. The website is designed to be visually appealing, user-friendly, and informative.
 
 <h2>Live Website</h2>
