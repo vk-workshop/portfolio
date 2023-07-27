@@ -1,16 +1,28 @@
-import project01 from "../../img/projects/iphone.png";
-import project011 from "../../img/projects/ihone-small.jpg";
+import project011 from "../../img/projects/iphone-3.png";
+import project01 from "../../img/projects/iphone-2.png";
 import project02 from "../../img/projects/dino-game.jpg";
 import project021 from "../../img/projects/dino-game-Big.jpg";
-import project03 from "../../img/projects/todo-list.jpg";
-import project031 from "../../img/projects/todo-list-Big.png";
-import project04 from "../../img/projects/social-network.jpg";
-import project041 from "../../img/projects/social-network-Big.png";
-import project6 from "../../img/projects/summarize-openAI.jpg";
-import project61 from "../../img/projects/summarize-openAI-big.png";
+// import project03 from "../../img/projects/todo-list.jpg";
+// import project031 from "../../img/projects/todo-list-Big.png";
+// import project04 from "../../img/projects/social-network.jpg";
+// import project041 from "../../img/projects/social-network-Big.png";
+import project05 from "../../img/projects/store-1.png";
+import project051 from "../../img/projects/store-2.png";
+import project6 from "../../img/projects/sum-4.png";
+import project61 from "../../img/projects/sum-1.png";
 import { v1 } from "uuid";
 
 export const projectsList = [
+  {
+    id: v1(),
+    title: "Ecommerce Store",
+    skills: "HTML, CSS, Tailwind CSS, React.js, TypeScript, Next.js, Headless UI, PostCSS, Stripe, Zustand, Axios, Recharts, Zod, Next, Cloudinary, Next Themes",
+    link: "https://ecommerce-store-zeta-sable.vercel.app/",
+    img: project05,
+    imgBig: project051,
+    gitHubLink:
+      "https://github.com/VolodymyrKolisnichenko/ecommerce-store/blob/master/README.md",
+  },
   {
     id: v1(),
     title: "iPhone",
@@ -21,16 +33,16 @@ export const projectsList = [
     gitHubLink:
       "https://github.com/VolodymyrKolisnichenko/iphone/blob/main/README.md",
   },
-  {
-    id: v1(),
-    title: "Social Network",
-    skills: "JS, CSS, HTML, Redux, React, Axios",
-    link: "https://volodymyrkolisnichenko.github.io/social-network/",
-    img: project04,
-    imgBig: project041,
-    gitHubLink:
-      "https://github.com/VolodymyrKolisnichenko/social-network/blob/main/README.md",
-  },
+  // {
+  //   id: v1(),
+  //   title: "Social Network",
+  //   skills: "JS, CSS, HTML, Redux, React, Axios",
+  //   link: "https://volodymyrkolisnichenko.github.io/social-network/",
+  //   img: project04,
+  //   imgBig: project041,
+  //   gitHubLink:
+  //     "https://github.com/VolodymyrKolisnichenko/social-network/blob/main/README.md",
+  // },
   {
     id: v1(),
     title: "Summarize OpenAI",
@@ -50,13 +62,13 @@ export const projectsList = [
     imgBig: project021,
     gitHubLink: "https://github.com/VolodymyrKolisnichenko/game-dino#readme",
   },
-  {
-    id: v1(),
-    title: "Todo List",
-    skills: "JS, CSS, HTML, TypeScript, React, MUI",
-    link: "https://volodymyrkolisnichenko.github.io/todo-list-2/",
-    img: project03,
-    imgBig: project031,
-    gitHubLink: "https://github.com/VolodymyrKolisnichenko/todo-list-2#readme",
-  },
+  // {
+  //   id: v1(),
+  //   title: "Todo List",
+  //   skills: "JS, CSS, HTML, TypeScript, React, MUI",
+  //   link: "https://volodymyrkolisnichenko.github.io/todo-list-2/",
+  //   img: project03,
+  //   imgBig: project031,
+  //   gitHubLink: "https://github.com/VolodymyrKolisnichenko/todo-list-2#readme",
+  // },
 ];
