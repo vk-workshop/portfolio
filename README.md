@@ -6,11 +6,11 @@ This is the repository for my personal portfolio website. The portfolio showcase
 Visit my portfolio website at https://volodymyrkolisnichenko.github.io/portfolio to explore my work.
 
 <h2>Features</h2>
-<b></b>Home: An introduction to who I am and my areas of expertise.<br>
-<b></b>Projects: Displaying a selection of my projects with descriptions, screenshots, and links.<br>
-<b></b>Skills: Highlighting the technical skills and tools I am proficient in.<br>
-<b></b>Experience: Listing my work experience and accomplishments.<br>
-<b></b>Contact: Providing a means to get in touch with me.<br>
+<b>Home: </b>An introduction to who I am and my areas of expertise.<br>
+<b>Projects:</b> Displaying a selection of my projects with descriptions, screenshots, and links.<br>
+<b>Skills:</b> Highlighting the technical skills and tools I am proficient in.<br>
+<b>Experience: </b>Listing my work experience and accomplishments.<br>
+<b>Contact: </b>Providing a means to get in touch with me.<br>
 
 <h2>Technologies Used</h2>
 <b>HTML:</b> Markup language for creating the structure and content of the website.<br>
