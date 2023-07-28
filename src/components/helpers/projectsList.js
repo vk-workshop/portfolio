@@ -7,7 +7,7 @@ import project021 from "../../img/projects/dino-2.png";
 // import project04 from "../../img/projects/social-network.jpg";
 // import project041 from "../../img/projects/social-network-Big.png";
 import project05 from "../../img/projects/st-1.png";
-import project051 from "../../img/projects/store-2.png";
+import project051 from "../../img/projects/st-3.png";
 import project052 from "../../img/projects/admin-1.png";
 import project6 from "../../img/projects/sum-1.png";
 import project61 from "../../img/projects/sum-4.png";
