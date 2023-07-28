@@ -29,7 +29,7 @@ const Project = () => {
 
             <div className="mt">
               <h1 className="title-1">{project.title3}</h1>
-
+              
               <a href={project.link2} target="_blank" rel="noreferrer">
                 <img
                   src={project.img2}
