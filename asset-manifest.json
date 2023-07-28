@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4f3e412f.css",
-    "main.js": "/portfolio/static/js/main.e4495838.js",
+    "main.js": "/portfolio/static/js/main.c4bc41c9.js",
+    "static/media/st-1.png": "/portfolio/static/media/st-1.37bf791bf6ceb651d75f.png",
     "static/media/sum-4.png": "/portfolio/static/media/sum-4.540548ec8d9cb5d74d6d.png",
-    "static/media/sum-1.png": "/portfolio/static/media/sum-1.0684d0aefb128dcba7d0.png",
-    "static/media/store-1.png": "/portfolio/static/media/store-1.ba0ed405f5cc1dcd2a42.png",
+    "static/media/sum-1.png": "/portfolio/static/media/sum-1.bea72773f58aee272a60.png",
     "static/media/iphone-3.png": "/portfolio/static/media/iphone-3.a271a255581f34f3c7f1.png",
     "static/media/store-2.png": "/portfolio/static/media/store-2.4c44852742055ef5133f.png",
     "static/media/iphone-2.png": "/portfolio/static/media/iphone-2.bef942e23dbb07cc10e5.png",
+    "static/media/admin-1.png": "/portfolio/static/media/admin-1.ab8a90abcb02b5dd4d6d.png",
     "static/media/header-bg.png": "/portfolio/static/media/header-bg.5bf82a058f892ab7f237.png",
-    "static/media/dino-game-Big.jpg": "/portfolio/static/media/dino-game-Big.a1f3fc639466d4051d75.jpg",
+    "static/media/dino-1.png": "/portfolio/static/media/dino-1.a33d75f7dc4203d90959.png",
+    "static/media/dino-2.png": "/portfolio/static/media/dino-2.70bc6efd59d2371512ad.png",
     "static/media/sun.svg": "/portfolio/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
     "static/media/moon.svg": "/portfolio/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
     "static/media/gitHub.svg": "/portfolio/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
@@ -19,10 +21,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.924c03996da2e09d5b1754ea89778cd3.svg",
     "main.4f3e412f.css.map": "/portfolio/static/css/main.4f3e412f.css.map",
-    "main.e4495838.js.map": "/portfolio/static/js/main.e4495838.js.map"
+    "main.c4bc41c9.js.map": "/portfolio/static/js/main.c4bc41c9.js.map"
   },
   "entrypoints": [
     "static/css/main.4f3e412f.css",
-    "static/js/main.e4495838.js"
+    "static/js/main.c4bc41c9.js"
   ]
 }
