@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8ba95196.css",
-    "main.js": "/portfolio/static/js/main.38dc6570.js",
+    "main.js": "/portfolio/static/js/main.bb07b0d1.js",
     "static/media/st-1.png": "/portfolio/static/media/st-1.37bf791bf6ceb651d75f.png",
     "static/media/sum-4.png": "/portfolio/static/media/sum-4.540548ec8d9cb5d74d6d.png",
     "static/media/sum-1.png": "/portfolio/static/media/sum-1.bea72773f58aee272a60.png",
     "static/media/iphone-3.png": "/portfolio/static/media/iphone-3.a271a255581f34f3c7f1.png",
-    "static/media/store-2.png": "/portfolio/static/media/store-2.4c44852742055ef5133f.png",
     "static/media/iphone-2.png": "/portfolio/static/media/iphone-2.bef942e23dbb07cc10e5.png",
+    "static/media/st-3.png": "/portfolio/static/media/st-3.d4bafc46c0100e3b79d5.png",
     "static/media/admin-1.png": "/portfolio/static/media/admin-1.ab8a90abcb02b5dd4d6d.png",
     "static/media/header-bg.png": "/portfolio/static/media/header-bg.5bf82a058f892ab7f237.png",
     "static/media/dino-1.png": "/portfolio/static/media/dino-1.a33d75f7dc4203d90959.png",
@@ -21,10 +21,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.924c03996da2e09d5b1754ea89778cd3.svg",
     "main.8ba95196.css.map": "/portfolio/static/css/main.8ba95196.css.map",
-    "main.38dc6570.js.map": "/portfolio/static/js/main.38dc6570.js.map"
+    "main.bb07b0d1.js.map": "/portfolio/static/js/main.bb07b0d1.js.map"
   },
   "entrypoints": [
     "static/css/main.8ba95196.css",
-    "static/js/main.38dc6570.js"
+    "static/js/main.bb07b0d1.js"
   ]
 }
