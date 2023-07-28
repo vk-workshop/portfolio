@@ -26,18 +26,21 @@ const Project = () => {
             </div>
 
             <BtnGitHub link={project.gitHubLink} />
-            <h1 className="title-1">{project.title3}</h1>
 
-            <a href={project.link2} target="_blank" rel="noreferrer">
-              <img
-                src={project.img2}
-                alt={project.title3}
-                className="project-details__cover"
-              />
-            </a>
+            <div className="mt">
+              <h1 className="title-1">{project.title3}</h1>
 
-            <div className="project-details__desc">
-              <p>{project.skills2}</p>
+              <a href={project.link2} target="_blank" rel="noreferrer">
+                <img
+                  src={project.img2}
+                  alt={project.title3}
+                  className="project-details__cover"
+                />
+              </a>
+
+              <div className="project-details__desc">
+                <p>{project.skills2}</p>
+              </div>
             </div>
 
             <BtnGitHub link={project.gitHubLink2} />
