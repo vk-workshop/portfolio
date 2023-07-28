@@ -1,21 +1,21 @@
 import project011 from "../../img/projects/iphone-3.png";
 import project01 from "../../img/projects/iphone-2.png";
-import project02 from "../../img/projects/dino-game.jpg";
-import project021 from "../../img/projects/dino-game-Big.jpg";
+import project02 from "../../img/projects/dino-1.png";
+import project021 from "../../img/projects/dino-2.png";
 // import project03 from "../../img/projects/todo-list.jpg";
 // import project031 from "../../img/projects/todo-list-Big.png";
 // import project04 from "../../img/projects/social-network.jpg";
 // import project041 from "../../img/projects/social-network-Big.png";
-import project05 from "../../img/projects/store-1.png";
+import project05 from "../../img/projects/st-1.png";
 import project051 from "../../img/projects/store-2.png";
-import project6 from "../../img/projects/sum-4.png";
-import project61 from "../../img/projects/sum-1.png";
+import project6 from "../../img/projects/sum-1.png";
+import project61 from "../../img/projects/sum-4.png";
 import { v1 } from "uuid";
 
 export const projectsList = [
   {
     id: v1(),
-    title: "Ecommerce Store",
+    title: "Store + Admin Dashboard",
     skills: "HTML, CSS, Tailwind CSS, React.js, TypeScript, Next.js, Headless UI, PostCSS, Stripe, Zustand, Axios, Recharts, Zod, Next, Cloudinary, Next Themes",
     link: "https://ecommerce-store-zeta-sable.vercel.app/",
     img: project05,
