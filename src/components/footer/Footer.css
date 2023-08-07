@@ -27,3 +27,11 @@
 .copyright p + p {
 	margin-top: 0.5em;
 }
+
+.social__item{
+	transition: transform 0.3s;
+}
+
+.social__item:hover{
+	transform: translateY(-5px);
+}
