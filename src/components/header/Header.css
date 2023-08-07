@@ -49,6 +49,4 @@
 .header__text p + p {
 	margin-top: 0.5em;
 }
-.header img{
-	transform: rotateX('angle');
-}
+
