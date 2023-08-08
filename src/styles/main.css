@@ -111,7 +111,7 @@ body {
 	border-radius: 5px;
 	
 	background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
-	text-decoration: none;
+	/* text-decoration: none; */
 	transition: background-color 1s;
 
 	color: var(--white);
