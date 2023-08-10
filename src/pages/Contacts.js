@@ -9,15 +9,15 @@ const Contacts = () => {
                 <ul className="content-list">
                     <li className="content-list__item">
                         <h2 className="title-2">Location</h2>
-                        <p>Poznan, Poland</p>
+                        <p className="slide__left">Poznan, Poland</p>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Telegram / WhatsApp</h2>
-                        <p><a href="tel:+48532621740">+48 532621740</a></p>
+                        <p className="slide__right" ><a href="tel:+48532621740">+48532621740</a></p>
                     </li>
                     <li className="content-list__item">
                         <h2 className="title-2">Email</h2>
-                        <p><a href="mailto:futurevovka@gmail.com">futurevovka@gmail.com</a></p>
+                        <p className="slide__left" ><a href="mailto:futurevovka@gmail.com">futurevovka@gmail.com</a></p>
                     </li>
                 </ul>
 

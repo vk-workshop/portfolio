@@ -51,11 +51,22 @@
 }
 
 .slide__left {
-	animation: slideInleft 1s ease-in;
+	animation: slideInleft 2s ease;
 }
 @keyframes  slideInleft {
 	from {
 		transform: translateX(-300px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+.slide__right {
+	animation: slideInright 2s ease;
+}
+@keyframes  slideInright {
+	from {
+		transform: translateX(300px);
 	}
 	to {
 		transform: translateX(0);
