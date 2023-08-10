@@ -7,7 +7,8 @@
 	--black: #171718;
 	--black-border: #26292d;
 	--white: #fff;
-	--purple: #5c62ec;
+	/* --purple: #5c62ec; */
+	--blue: #2196f3;
 
 	/* Nav */
 	--nav-bg: var(--black);
@@ -25,7 +26,8 @@
 	/* Light mode */
 	--page-bg: var(--white);
 	--text-color: var(--black);
-	--accent: var(--purple);
+	--accent: var(--blue);
+	/* --accent: var(--purple); */
 	--title-1: var(--accent);
 
 	--project-card-bg: var(--white);
