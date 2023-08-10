@@ -28,10 +28,35 @@
 	margin-top: 0.5em;
 }
 
-.social__item{
+.social__item {
 	transition: transform 0.3s;
 }
 
-.social__item:hover{
+.social__item:hover {
 	transform: translateY(-5px);
+}
+/* Utility classes */
+.animate{
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+/* Animation */
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-20px);
+	}
+	60% {
+		transform: translateY(-15px);
+	}
+}
+
+.bounce:hover {
+	animation-name: bounce;
 }

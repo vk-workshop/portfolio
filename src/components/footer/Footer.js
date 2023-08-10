@@ -17,7 +17,7 @@ const Section = () => {
                 <li className="social__item"><a href="https://www.linkedin.com/in/volodymyr-kolisnichenko"><img src={linkedIn} alt="Link" /></a></li>
             </ul>
             <div className="copyright">
-                <p>© 2023 volodymyr.com</p>
+                <p className="animate bounce">© 2023 volodymyr.com</p>
             </div>
         </div>
     </div>
