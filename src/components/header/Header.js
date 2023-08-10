@@ -9,9 +9,10 @@ const Header = () => {
           <h1 className="header__title">
             <p className="slide__right">
               <strong>
-                Hi, my name is <em>Volodymyr</em>
+                Hi, my name is 
               </strong>
             </p>
+            <strong><em>Volodymyr</em></strong>
             <br />a <span>frontend developer</span>
           </h1>
           <div className="header__text">
