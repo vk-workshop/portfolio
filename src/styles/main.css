@@ -9,6 +9,7 @@
 	--white: #fff;
 	/* --purple: #5c62ec; */
 	--blue: #2196f3;
+	--gradient: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 
 	/* Nav */
 	--nav-bg: var(--black);
@@ -16,11 +17,11 @@
 	--nav-text: var(--white);
 
 	/* Header */
-	--header-bg: var(--black);
-	--header-text: var(--white);
+	--header-bg: var(--white);
+	--header-text: var(--black);
 
 	/* Footer */
-	--footer-bg: var(--black);
+	--footer-bg: var(--gradient);
 	--footer-text: var(--white);
 
 	/* Light mode */
@@ -42,9 +43,22 @@
 
 	--title-1: var(--white);
 
+	/* Project */
 	--project-card-bg: var(--black);
 	--project-card-text: var(--white);
 	--box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
+
+	/* Footer */
+	--footer-bg: var(--black);
+	--footer-text: var(--white);
+
+	/* Nav */
+	--nav-bg: var(--black);
+	--blue-border: #2196f3;
+	
+	/* Header */
+	--header-bg: var(--black);
+	--header-text: var(--white);
 }
 
 html,
@@ -129,7 +143,7 @@ body {
 
 .btn:active {
 	position: relative;
-	top: 1px;
+	top: 2px;
 }
 
 /* Btn outline */
