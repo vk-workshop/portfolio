@@ -6,13 +6,13 @@
 	--blackpure: #000;
 	--black: #171718;
 	--black-border: #26292d;
+	--blue-border: #2196f3;
 	--white: #fff;
 	/* --purple: #5c62ec; */
-	--blue: #2196f3;
 	--gradient: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 
 	/* Nav */
-	--nav-bg: var(--black);
+	--nav-bg: var(--gradient);
 	--nav-border: var(--black-border);
 	--nav-text: var(--white);
 
@@ -54,8 +54,7 @@
 
 	/* Nav */
 	--nav-bg: var(--black);
-	--blue-border: #2196f3;
-	
+	--nav-border: var(--blue-border);
 	/* Header */
 	--header-bg: var(--black);
 	--header-text: var(--white);

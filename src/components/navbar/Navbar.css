@@ -5,9 +5,9 @@
 	/* border-bottom: 1px solid var(--nav-border); */
 	color: var(--nav-text);
 	letter-spacing: normal;
+	background: var(--nav-bg);
 
 	/* Active background gradient */
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -66,7 +66,7 @@
 	display: block;
 	height: 2px;
 	width: 100%;
-	background-color: var(--black);
+	background-color: var(--nav-border);
 }
 
 /* Active background gradient */
