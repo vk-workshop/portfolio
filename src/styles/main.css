@@ -27,7 +27,7 @@
 	/* Light mode */
 	--page-bg: var(--white);
 	--text-color: var(--black);
-	--accent: var(--blue);
+	--accent: var(--blue-border);
 	/* --accent: var(--purple); */
 	--title-1: var(--accent);
 
