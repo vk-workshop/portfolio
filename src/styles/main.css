@@ -250,17 +250,23 @@ body {
 	}
 
 	.header__title {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.header__title strong {
-		font-size: 40px;
+		font-size: 35px;
 	}
 
 	/* Nav */
 
 	.nav-row {
 		justify-content: space-between;
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+	.nav-list {
+		row-gap: 5px;
+		font-size: 12px;
 	}
 
 	.dark-mode-btn {
@@ -270,12 +276,12 @@ body {
 	/* General */
 
 	.section {
-		padding: 40px 0;
+		padding: 20px 0;
 	}
 
 	.title-1 {
-		margin-bottom: 30px;
-		font-size: 40px;
+		margin-bottom: 25px;
+		font-size: 35px;
 	}
 
 	.title-2 {
@@ -309,7 +315,7 @@ body {
 	/* Footer */
 
 	.footer {
-		padding: 40px 0 30px;
+		padding: 5px 0;
 	}
 
 	.footer__wrapper {
@@ -326,3 +332,4 @@ body {
 		width: 28px;
 	}
 }
+
