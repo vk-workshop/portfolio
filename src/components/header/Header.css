@@ -50,10 +50,10 @@
 	margin-top: 0.5em;
 }
 
-.slide__left {
+/* .slide__left {
 	animation: slideInleft 2s ease;
-}
-@keyframes  slideInleft {
+} */
+/* @keyframes  slideInleft {
 	from {
 		transform: translateX(-300px);
 	}
@@ -71,4 +71,4 @@
 	to {
 		transform: translateX(0);
 	}
-}
+} */
