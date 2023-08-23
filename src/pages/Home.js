@@ -1,5 +1,7 @@
 import Header from "../components/header/Header";
 
+import { motion } from "framer-motion";
+
 const Home = () => {
   return (
     <>
@@ -11,8 +13,8 @@ const Home = () => {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, ReactJS, Redux, Valtio, HTML, CSS, SCSS,
-                BootStrap, MaterialUI, Tailwind CSS, Git, GitHub, Figma, Koala,
+                JavaScript, TypeScript, ReactJS, NextJS, Redux, Valtio, HTML, CSS, SCSS,
+                BootStrap, MaterialUI, TailwindCSS, Git
               </p>
             </li>
           </ul>
