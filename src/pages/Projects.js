@@ -1,19 +1,54 @@
-import Project from './../components/project/Project';
+// import {Project} from './../components/project/Project';
+import {MProject} from './../components/project/Project';
 import {projectsList} from '../components/helpers/projectsList'
 
+import { useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
+import { motion } from "framer-motion";
+
+const textAnimation = {
+  hidden: {
+    y: 100,
+    opacity: 0
+  },
+  visible: custom => ({
+    y: 0,
+    opacity: 1,
+    transition: { delay: custom * 0.2}
+  })
+}
+
+const featuredProjects = {
+    hidden: {
+        y: 100,
+        opacity: 0
+      },
+      visible: custom => ({
+        y: 0,
+        opacity: 1,
+        transition: { delay: custom * 0.3}
+        
+      })
+}
 
 
 const Projects = () => {
     return ( 
-        <main className="section">
+        <motion.main 
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ amount: 0.3 }}
+        className="section">
         <div className="container">
             <h2 className="title-1">Projects</h2>
-            <ul className="projects">
+            <motion.ul custom={2} variants={textAnimation} className="projects">
                
               {projectsList.map((pr, index) => {
                   return (
-                      <Project 
+                      <MProject 
+                      custom={index + 2}
+                      variants={featuredProjects}
                       img={pr.img} 
                       title={pr.title} 
                       imgBig={pr.imgBig}
@@ -24,9 +59,9 @@ const Projects = () => {
                       index={index} />
                   )
               })}
-            </ul>
+            </motion.ul>
         </div>
-    </main>
+    </motion.main>
 
      );
 }
