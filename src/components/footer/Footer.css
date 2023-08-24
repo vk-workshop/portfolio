@@ -74,3 +74,14 @@
 		background-position: 0% 50%;
 	}
 }
+@media screen and (max-width: 768px) {
+
+	.footer {
+		margin-top: auto;
+		padding: 30px 0 20px 0;
+	}
+	.social {
+		column-gap: 10px;
+	}
+	
+  }
