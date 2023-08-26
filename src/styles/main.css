@@ -243,9 +243,6 @@ body {
 
 
 @media screen and (max-width: 768px) {
-	/* Adjustments for mobile screens */
-  
-	/* For example, you can make the title font size smaller */
 	.title-1 {
 	  font-size: 36px;
 	}

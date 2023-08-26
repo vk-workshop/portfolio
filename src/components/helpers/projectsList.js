@@ -16,6 +16,16 @@ import { v1 } from "uuid";
 export const projectsList = [
   {
     id: v1(),
+    title: "Summarize OpenAI",
+    skills: "JS, CSS, HTML, Vitejs, Tailwindcss, RapidApi, React, React-Redux",
+    link: "https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/",
+    img: project6,
+    imgBig: project61,
+    gitHubLink:
+      "https://github.com/VolodymyrKolisnichenko/chatgpt4_summarizer_app/blob/main/README.md",
+  },
+  {
+    id: v1(),
     title: "Store + Admin Dashboard",
     title2: "eCommerce Store",
     title3: "Admin Dashboard",
@@ -51,16 +61,7 @@ export const projectsList = [
   //   gitHubLink:
   //     "https://github.com/VolodymyrKolisnichenko/social-network/blob/main/README.md",
   // },
-  {
-    id: v1(),
-    title: "Summarize OpenAI",
-    skills: "JS, CSS, HTML, Vitejs, Tailwindcss, RapidApi, React, React-Redux",
-    link: "https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/",
-    img: project6,
-    imgBig: project61,
-    gitHubLink:
-      "https://github.com/VolodymyrKolisnichenko/chatgpt4_summarizer_app/blob/main/README.md",
-  },
+
   {
     id: v1(),
     title: "Dino Game",
