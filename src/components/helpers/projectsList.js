@@ -17,7 +17,7 @@ export const projectsList = [
   {
     id: v1(),
     title: "Summarize OpenAI",
-    skills: "JS, CSS, HTML, Vitejs, Tailwindcss, RapidApi, React, React-Redux",
+    skills: "JS, CSS, HTML, Vite, Tailwindcss, RapidApi, React, React-Redux",
     link: "https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/",
     img: project6,
     imgBig: project61,
@@ -31,7 +31,7 @@ export const projectsList = [
     title3: "Admin Dashboard",
     skills: "HTML, CSS, Tailwind CSS, React.js, TypeScript, Next.js, Headless UI, PostCSS",
     skills2: "Prisma, Next.js, Stripe, Zustand, Axios, Recharts, Zod, Next Cloudinary, Next Themes",
-    link: "https://ecommerce-store-zeta-sable.vercel.app/",
+    link: "https://ecommerce-store-seven-pi.vercel.app/", 
     link2: "https://ecommerce-admin-phi-seven.vercel.app//",
     img: project05,
     imgBig: project051,
