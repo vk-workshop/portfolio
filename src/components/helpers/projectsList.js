@@ -17,7 +17,7 @@ export const projectsList = [
   {
     id: v1(),
     title: "Summarize OpenAI",
-    skills: "JS, CSS, HTML, Vite, Tailwindcss, RapidApi, React, React-Redux",
+    skills: "JS, CSS, HTML, Vite, Tailwind CSS, RapidApi, React, React-Redux",
     link: "https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/",
     img: project6,
     imgBig: project61,
@@ -65,7 +65,7 @@ export const projectsList = [
   {
     id: v1(),
     title: "Dino Game",
-    skills: "JS, CSS, HTML",
+    skills: "JS, CSS, HTML, React",
     link: "https://volodymyrkolisnichenko.github.io/game-dino/",
     img: project02,
     imgBig: project021,

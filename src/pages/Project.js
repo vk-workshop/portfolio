@@ -6,7 +6,7 @@ const Project = () => {
   const { id } = useParams();
   const project = projectsList[id];
 
-  if (Number(id) === 0) {
+  if (Number(id) === 1) {
     return (
       <main className="section">
         <div className="container">
