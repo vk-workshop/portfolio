@@ -3,7 +3,7 @@
 This is the repository for my personal portfolio website. The portfolio showcases my skills, projects, and experiences to provide an overview of my professional profile. The website is designed to be visually appealing, user-friendly, and informative.
 
 <h2>Live Website</h2>
-Visit my portfolio website at https://volodymyrkolisnichenko.github.io/portfolio to explore my work.
+Visit my portfolio website at https://vk-workshop.github.io/portfolio to explore my work.
 
 <h2>Features</h2>
 <b>Home: </b>An introduction to who I am and my areas of expertise.<br>
