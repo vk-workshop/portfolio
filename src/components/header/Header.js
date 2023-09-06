@@ -16,7 +16,7 @@ const textAnimation = {
 }
 
 const Header = () => {
-  const cvURL = process.env.PUBLIC_URL + "/Volodymyr_Kolisnichenko_CV.pdf";
+  const cvURL = process.env.PUBLIC_URL + "/cv_kolisnichenko.pdf";
   return (
     <>
       <motion.header 
