@@ -3,7 +3,7 @@
 This is the repository for my personal portfolio website. The portfolio showcases my skills, projects, and experiences to provide an overview of my professional profile. The website is designed to be visually appealing, user-friendly, and informative.
 
 <h2>Live Website</h2>
-Visit my portfolio website at https://volodymyrkolisnichenko.github.io/portfolio to explore my work.
+Visit my portfolio website at https://vk-workshop.github.io/portfolio to explore my work.
 
 <h2>Features</h2>
 <b>Home: </b>An introduction to who I am and my areas of expertise.<br>
@@ -21,7 +21,7 @@ Other libraries or frameworks: The project may utilize additional libraries or f
 To view the website locally, follow these steps:<br>
 
 <h3>Clone the repository:</h3>
-git clone https://github.com/VolodymyrKolisnichenko/portfolio.git<br>
+git clone https://github.com/vk-workshop/portfolio.git<br>
 <h3>Navigate to the project directory:</h3>
 cd portfolio<br>
 Open index.html in your web browser to access the website.<br>
