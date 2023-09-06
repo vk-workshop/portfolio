@@ -18,11 +18,11 @@ export const projectsList = [
     id: v1(),
     title: "Summarize OpenAI",
     skills: "JS, CSS, HTML, Vite, Tailwind CSS, RapidApi, React, React-Redux",
-    link: "https://volodymyrkolisnichenko.github.io/chatgpt4_summarizer_app/",
+    link: "https://vk-workshop.github.io/chatgpt4_summarizer_app/",
     img: project6,
     imgBig: project61,
     gitHubLink:
-      "https://github.com/VolodymyrKolisnichenko/chatgpt4_summarizer_app/blob/main/README.md",
+      "https://github.com/vk-workshop/chatgpt4_summarizer_app/blob/main/README.md",
   },
   {
     id: v1(),
@@ -37,19 +37,19 @@ export const projectsList = [
     imgBig: project051,
     img2: project052,
     gitHubLink:
-      "https://github.com/VolodymyrKolisnichenko/ecommerce-store/blob/master/README.md",
+      "https://github.com/vk-workshop/ecommerce-store/blob/master/README.md",
     gitHubLink2:
-      "https://github.com/VolodymyrKolisnichenko/ecommerce-admin/blob/main/README.md",
+      "https://github.com/vk-workshop/ecommerce-admin/blob/main/README.md",
   },
   {
     id: v1(),
     title: "iPhone",
     skills: "JS, CSS, HTML, WebGI, React, Vite, Sketchfab, GSAP",
-    link: "https://volodymyrkolisnichenko.github.io/iphone/",
+    link: "https://vk-workshop.github.io/iphone/",
     img: project011,
     imgBig: project01,
     gitHubLink:
-      "https://github.com/VolodymyrKolisnichenko/iphone/blob/main/README.md",
+      "https://github.com/vk-workshop/iphone/blob/main/README.md",
   },
   // {
   //   id: v1(),
@@ -66,10 +66,10 @@ export const projectsList = [
     id: v1(),
     title: "Dino Game",
     skills: "JS, CSS, HTML, React",
-    link: "https://volodymyrkolisnichenko.github.io/game-dino/",
+    link: "https://vk-workshop.github.io/game-dino/",
     img: project02,
     imgBig: project021,
-    gitHubLink: "https://github.com/VolodymyrKolisnichenko/game-dino#readme",
+    gitHubLink: "https://github.com/vk-workshop/game-dino#readme",
   },
   // {
   //   id: v1(),
