@@ -18,7 +18,6 @@ const Home = () => {
   return (
     <>
       <Header />
-
       <motion.main 
       initial="hidden"
       whileInView="visible"
@@ -29,8 +28,8 @@ const Home = () => {
             <li className="content-list__item">
               <motion.h2 custom={1} variants={textAnimation} className="title-2">Frontend</motion.h2>
               <motion.p custom={2} variants={textAnimation}>
-                JavaScript, TypeScript, ReactJS, NextJS, Redux, Valtio, HTML, CSS, SCSS,
-                BootStrap, MaterialUI, TailwindCSS, Git
+                JavaScript, TypeScript, React.js, Node.js, Express, Nest.js, Redux, Valtio, HTML5, CSS3, SCSS,
+                MaterialUI, TailwindCSS, Git, PostgreSQL, SQL, Jest, Cypress
               </motion.p>
             </li>
           </ul>

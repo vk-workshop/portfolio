@@ -49,7 +49,7 @@ const Contacts = () => {
           >
             <h2 className="title-2">Email</h2>
             <p className="slide__left">
-              <a href="mailto:futurevovka@gmail.com">futurevovka@gmail.com</a>
+              <a href="mailto:kolisnichenko.dev@gmail.com">kolisnichenko.dev@gmail.com</a>
             </p>
           </motion.li>
         </motion.ul>

@@ -1,9 +1,5 @@
-// import {Project} from './../components/project/Project';
 import {MProject} from './../components/project/Project';
 import {projectsList} from '../components/helpers/projectsList'
-
-// import { useState } from 'react';
-// import { useInView } from 'react-intersection-observer';
 
 import { motion } from "framer-motion";
 

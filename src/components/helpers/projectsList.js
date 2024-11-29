@@ -2,15 +2,15 @@ import project011 from "../../img/projects/iphone-3.png";
 import project01 from "../../img/projects/iphone-2.png";
 import project02 from "../../img/projects/dino-1.png";
 import project021 from "../../img/projects/dino-2.png";
-// import project03 from "../../img/projects/todo-list.jpg";
-// import project031 from "../../img/projects/todo-list-Big.png";
-// import project04 from "../../img/projects/social-network.jpg";
-// import project041 from "../../img/projects/social-network-Big.png";
 import project05 from "../../img/projects/st-1.png";
 import project051 from "../../img/projects/st-3.png";
 import project052 from "../../img/projects/admin-1.png";
 import project6 from "../../img/projects/sum-1.png";
 import project61 from "../../img/projects/sum-4.png";
+import project7 from "../../img/projects/e-commerce.jpeg";
+import project71 from "../../img/projects/e-commerce-2.jpeg";
+import project8 from "../../img/projects/myBike.jpeg";
+import project81 from "../../img/projects/myBike-2.jpeg";
 import { v1 } from "uuid";
 
 export const projectsList = [
@@ -51,17 +51,6 @@ export const projectsList = [
     gitHubLink:
       "https://github.com/vk-workshop/iphone/blob/main/README.md",
   },
-  // {
-  //   id: v1(),
-  //   title: "Social Network",
-  //   skills: "JS, CSS, HTML, Redux, React, Axios",
-  //   link: "https://volodymyrkolisnichenko.github.io/social-network/",
-  //   img: project04,
-  //   imgBig: project041,
-  //   gitHubLink:
-  //     "https://github.com/VolodymyrKolisnichenko/social-network/blob/main/README.md",
-  // },
-
   {
     id: v1(),
     title: "Dino Game",
@@ -71,13 +60,22 @@ export const projectsList = [
     imgBig: project021,
     gitHubLink: "https://github.com/vk-workshop/game-dino#readme",
   },
-  // {
-  //   id: v1(),
-  //   title: "Todo List",
-  //   skills: "JS, CSS, HTML, TypeScript, React, MUI",
-  //   link: "https://volodymyrkolisnichenko.github.io/todo-list-2/",
-  //   img: project03,
-  //   imgBig: project031,
-  //   gitHubLink: "https://github.com/VolodymyrKolisnichenko/todo-list-2#readme",
-  // },
+  {
+    id: v1(),
+    title: "Device Catalog",
+    skills: "JS, TypeScript, Sass(SCSS), HTML5, BEM Methodology, React, Context API, React Router, Figma design",
+    link: "https://vk-workshop.github.io/react-device-catalog",
+    img: project71,
+    imgBig: project7,
+    gitHubLink: "https://github.com/vk-workshop/react-device-catalog",
+  },
+  {
+    id: v1(),
+    title: "myBike",
+    skills: "JS, Sass(SCSS), HTML5, BEM Methodology, Figma design",
+    link: "https://vk-workshop.github.io/myBike_landing_page/",
+    img: project81,
+    imgBig: project8,
+    gitHubLink: "https://github.com/vk-workshop/myBike_landing_page",
+  },
 ];
