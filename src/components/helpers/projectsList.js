@@ -2,9 +2,6 @@ import project011 from "../../img/projects/iphone-3.png";
 import project01 from "../../img/projects/iphone-2.png";
 import project02 from "../../img/projects/dino-1.png";
 import project021 from "../../img/projects/dino-2.png";
-import project05 from "../../img/projects/st-1.png";
-import project051 from "../../img/projects/st-3.png";
-import project052 from "../../img/projects/admin-1.png";
 import project6 from "../../img/projects/sum-1.png";
 import project61 from "../../img/projects/sum-4.png";
 import project7 from "../../img/projects/e-commerce.jpeg";
@@ -24,23 +21,23 @@ export const projectsList = [
     gitHubLink:
       "https://github.com/vk-workshop/chatgpt4_summarizer_app/blob/main/README.md",
   },
-  {
-    id: v1(),
-    title: "Store + Admin Dashboard",
-    title2: "eCommerce Store",
-    title3: "Admin Dashboard",
-    skills: "HTML, CSS, Tailwind CSS, React.js, TypeScript, Next.js, Headless UI, PostCSS",
-    skills2: "Prisma, Next.js, Stripe, Zustand, Axios, Recharts, Zod, Next Cloudinary, Next Themes",
-    link: "https://ecommerce-store-seven-pi.vercel.app/", 
-    link2: "https://ecommerce-admin-phi-seven.vercel.app//",
-    img: project05,
-    imgBig: project051,
-    img2: project052,
-    gitHubLink:
-      "https://github.com/vk-workshop/ecommerce-store/blob/master/README.md",
-    gitHubLink2:
-      "https://github.com/vk-workshop/ecommerce-admin/blob/main/README.md",
-  },
+  // {
+  //   id: v1(),
+  //   title: "Store + Admin Dashboard",
+  //   title2: "eCommerce Store",
+  //   title3: "Admin Dashboard",
+  //   skills: "HTML, CSS, Tailwind CSS, React.js, TypeScript, Next.js, Headless UI, PostCSS",
+  //   skills2: "Prisma, Next.js, Stripe, Zustand, Axios, Recharts, Zod, Next Cloudinary, Next Themes",
+  //   link: "https://ecommerce-store-seven-pi.vercel.app/", 
+  //   link2: "https://ecommerce-admin-phi-seven.vercel.app//",
+  //   img: project05,
+  //   imgBig: project051,
+  //   img2: project052,
+  //   gitHubLink:
+  //     "https://github.com/vk-workshop/ecommerce-store/blob/master/README.md",
+  //   gitHubLink2:
+  //     "https://github.com/vk-workshop/ecommerce-admin/blob/main/README.md",
+  // },
   {
     id: v1(),
     title: "iPhone",
