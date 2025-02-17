@@ -1,32 +1,35 @@
 <h1>Portfolio Website</h1>
-<img src="./src/img/projects/porfolio.png" alt="portfolio"/>
 This is the repository for my personal portfolio website. The portfolio showcases my skills, projects, and experiences to provide an overview of my professional profile. The website is designed to be visually appealing, user-friendly, and informative.
 
 <h2>Live Website</h2>
 Visit my portfolio website at https://vk-workshop.github.io/portfolio to explore my work.
 
 <h2>Features</h2>
-<b>Home: </b>An introduction to who I am and my areas of expertise.<br>
-<b>Projects:</b> Displaying a selection of my projects with descriptions, screenshots, and links.<br>
-<b>Skills:</b> Highlighting the technical skills and tools I am proficient in.<br>
-<b>Experience: </b>Listing my work experience and accomplishments.<br>
-<b>Contact: </b>Providing a means to get in touch with me.<br>
+- **Responsive Design** - The portfolio is fully responsive, ensuring it looks great on all devices.
+- **Project Showcase** - A section dedicated to highlighting the projects I’ve worked on.
+- **Skills** - A list of technologies and tools I'm proficient in.
+- **About Me** - A brief overview of my background, education, and career goals.
+- **Contact** - A form to get in touch with me.
+- **Smooth Animations** - Interactive animations to enhance user experience.
+- **Dark/Light Mode** - Toggle between dark and light themes.
 
-<h2>Technologies Used</h2>
-<b>HTML:</b> Markup language for creating the structure and content of the website.<br>
-<b>CSS:</b> Stylesheets for defining the visual appearance and layout of the website.<br>
-<b>JavaScript: </b>Programming language used for interactivity and dynamic elements.<br>
-Other libraries or frameworks: The project may utilize additional libraries or frameworks for specific functionalities or design enhancements. Refer to the project's source code for more details.
-<h2>Usage</h2>
-To view the website locally, follow these steps:<br>
+<h2>This portfolio utilizes the following technologies:</h2>
+- **React** - For building the user interface
+- **TypeScript** - For type safety and better development experience
+- **HTML5 & CSS3** - For structuring and styling the pages
+- **Sass** - For modular and maintainable styles
+- **Node.js** - Backend services (if applicable)
+- **Git** - For version control
+- **Vercel/Netlify** - For deployment
 
-<h3>Clone the repository:</h3>
-git clone https://github.com/vk-workshop/portfolio.git<br>
-<h3>Navigate to the project directory:</h3>
-cd portfolio<br>
-Open index.html in your web browser to access the website.<br>
-<h2>Contributing</h2>
-Contributions are not currently accepted for this project, as it represents my personal portfolio. However, your feedback and suggestions are always welcome!
+<h3>Installation</h3>
+   ```bash
+   git clone https://github.com/vk-workshop/portfolio.git
+   cd portfolio<br>
+<h3>Install dependencies:</h3>
+npm install<br>
+<h2>Start the development server:</h2>
+npm start
 
 <h2>Contact</h2>
 For any inquiries or professional opportunities, please feel free to reach out to me through my portfolio website or via GitHub.
