@@ -1,35 +1,45 @@
-<h1>Portfolio Website</h1>
-This is the repository for my personal portfolio website. The portfolio showcases my skills, projects, and experiences to provide an overview of my professional profile. The website is designed to be visually appealing, user-friendly, and informative.
+# 🌐 Portfolio Website
 
-<h2>Live Website</h2>
-Visit my portfolio website at https://vk-workshop.github.io/portfolio to explore my work.
+Welcome to my personal **Portfolio Website** repository!  
+This site showcases my **skills**, **projects**, and **experiences**, giving visitors an overview of my professional journey.  
+Designed to be **visually appealing**, **user-friendly**, and **informative**.
 
-<h2>Features</h2>
-- **Responsive Design** - The portfolio is fully responsive, ensuring it looks great on all devices.<br>
-- **Project Showcase** - A section dedicated to highlighting the projects I’ve worked on.<br>
-- **Skills** - A list of technologies and tools I'm proficient in.<br>
-- **About Me** - A brief overview of my background, education, and career goals.<br>
-- **Contact** - A form to get in touch with me.<br>
-- **Smooth Animations** - Interactive animations to enhance user experience.<br>
-- **Dark/Light Mode** - Toggle between dark and light themes.<br>
+## 🚀 Live Demo
+🔗 [Visit Portfolio Website](https://vk-workshop.github.io/portfolio)
 
-<h2>This portfolio utilizes the following technologies:</h2>
-- **React** - For building the user interface<br>
-- **TypeScript** - For type safety and better development experience<br>
-- **HTML5 & CSS3** - For structuring and styling the pages<br>
-- **Sass** - For modular and maintainable styles<br>
-- **Node.js** - Backend services (if applicable)<br>
-- **Git** - For version control<br>
-- **Vercel/Netlify** - For deployment<br>
+---
 
-<h3>Installation</h3>
-   ```bash<br>
-   git clone https://github.com/vk-workshop/portfolio.git<br>
-   cd portfolio<br>
-<h3>Install dependencies:</h3>
-npm install<br>
-<h2>Start the development server:</h2>
-npm start<br>
+## ✨ Features
 
-<h2>Contact</h2>
-For any inquiries or professional opportunities, please feel free to reach out to me through my portfolio website or via GitHub.
+- 📱 **Responsive Design** — Optimized for all devices (mobile, tablet, desktop)
+- 🗂️ **Project Showcase** — Explore key projects I've worked on
+- 🛠️ **Skills Section** — Overview of my technical skills & tools
+- 🙋‍♂️ **About Me** — Learn about my background & career goals
+- 📬 **Contact Form** — Easy way to get in touch
+- 🎨 **Smooth Animations** — Subtle animations for better UX
+- 🌗 **Dark/Light Mode** — Switch between themes effortlessly
+
+---
+
+## 🛠️ Tech Stack
+
+This portfolio is built using:
+
+- ⚛️ **React** — Component-based UI
+- 🟦 **TypeScript** — Type safety & better dev experience
+- 🏷️ **HTML5 & CSS3** — Structure & styling
+- 🎨 **Sass** — Modular, maintainable styles
+- 🐙 **Git** — Version control
+- ☁️ **Vercel / Netlify** — Easy deployment
+
+---
+
+## 📥 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vk-workshop/portfolio.git
+cd portfolio
+npm install
+npm start
