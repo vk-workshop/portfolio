@@ -31,7 +31,7 @@ const Header = () => {
               </strong>
             </motion.p>
             <motion.p custom={2} variants={textAnimation}><strong><em>Volodymyr</em></strong></motion.p> 
-            <motion.p custom={6} variants={textAnimation}> a <span>frontend developer</span></motion.p>
+            <motion.p custom={6} variants={textAnimation}> a <span>Full-stack Developer</span></motion.p>
           </h1>
           <div className="header__text">
             <motion.p custom={4} variants={textAnimation}>
